@@ -1,0 +1,25 @@
+# This repository lives inside the live server directory. Deny by default so
+# worlds, player data, logs, generated secrets, and binary dependencies can
+# never be published accidentally.
+*
+
+!.gitignore
+!README.md
+!LICENSE
+!start.bat
+!start.sh
+!setup_git.ps1
+!setup_git.sh
+
+!config-templates/
+!config-templates/**
+!datapacks/
+!datapacks/**
+!docs/
+!docs/**
+!scripts/
+!scripts/**
+!mods/
+mods/*
+!mods/README.md
+

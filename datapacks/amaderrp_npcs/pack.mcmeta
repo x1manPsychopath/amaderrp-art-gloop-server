@@ -1,0 +1,8 @@
+{
+  "pack": {
+    "description": "AmaDerrp cross-play community NPC dialogue",
+    "min_format": [107, 1],
+    "max_format": 107
+  }
+}
+
